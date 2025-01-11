@@ -14,6 +14,7 @@ main{
     margin: 0 auto;
     margin-top: 50px;
 }
+/*  Banner Section */
 .banner{    
 
     display: flex;
@@ -23,9 +24,11 @@ main{
     align-items: center;
     gap: 10px;
     border-radius: 24px;
+    margin-bottom: 80px;
 }
 .banner-title{
     font-size: 25px;
+    color: rgba(14, 14, 14, 0.7);
 }  
 .banner-description{
     font-size: 50px;
@@ -44,3 +47,121 @@ main{
   .green-btn:hover {
     background-color: #00c291;
   }
+  /*  vision Section */
+  .vision-title , .recent-title{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .vision-description , .recent-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: justify;
+    
+  }
+  .vision-card{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .vision-card1 {
+    width: 33%;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    
+  }
+  .vision-card1:hover {
+    background-color: #a5bfcc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  .vcard-description{
+    margin-bottom: 20px;
+
+  }
+  .vision-card1 button {
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: #5490f5;
+    border: none;
+    color: white;
+  }
+  .vision-card1 button:hover {
+    background-color: #1469fa;
+  }
+  .vision-card2 {
+    width: 33%;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #c6e4d6;
+    gap: 20px;
+  }
+  .vision-card2:hover {
+    background-color: #a5bfcc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  .vision-card2 button {
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: #09a15c;
+    border: none;
+    color: white;
+  }
+  .vision-card2 button:hover {
+    background-color: #1469fa;
+  }
+  .vision-card3 {
+    width: 33%;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #f7ebcf;
+    gap: 20px;
+    
+  }
+  .vision-card3:hover {
+    background-color: #a5bfcc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  .vision-card3 button {
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: #ffc239;
+    border: none;
+    color: white;
+  }
+  .vision-card3 button:hover {
+    background-color: #1469fa;
+  }
+  .quote{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    line-height: 25px;    
+  }
+    .quote-paragrapgh{
+        background-image: url(assets/quote-bg.png);
+        background-repeat: no-repeat;
+        font-size: 20px;
+        color: rgba(14, 14, 14, 0.7);
+        text-align: justify;
+    
+    }
+    .recent-news-card{
+        display: flex;
+        margin: 20px 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 48px;
+        background-color: white;
+        border-radius: 24px;
+        gap: 32px;
+    }
+    .news_card_img{        
+        border-radius: 16px;
+    }
+    .recent-news-card p {
+        margin-bottom: 20px;
+    }
