@@ -48,11 +48,11 @@ main{
     background-color: #00c291;
   }
   /*  vision Section */
-  .vision-title , .recent-title{
+  .vision-title , .recent-title, .donate-title{
     font-size: 40px;
     font-weight: bold;
   }
-  .vision-description , .recent-description{
+  .vision-description , .recent-description , .donate-description{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     text-align: justify;
@@ -159,9 +159,41 @@ main{
         border-radius: 24px;
         gap: 32px;
     }
-    .news_card_img{        
+    .news_card_img{ 
         border-radius: 16px;
     }
     .recent-news-card p {
         margin-bottom: 20px;
+    }
+    .donate-area{
+      padding: 0px 100px;
+      text-align: center;  
+    }
+    .donation{
+      display: flex;
+      justify-content: space-evenly;
+      
+    }
+    .donation h1{
+      padding: 40px;
+      background-color: white;
+      border-radius: 16px;
+      margin-top: 25px;
+    }
+    .donation h1:hover {
+      color: white;
+      background-color: #00c291;
+    }
+    .donation .donation-selected{
+      background-color: #c6e4d6;      
+    }
+    .input_taka{
+      display: flex;
+      flex-direction: column;
+    }
+    .donate_input{
+        padding: 20px 40px;
+        text-align: center;
+        margin: 32px 0px;
+        border: none;
     }
